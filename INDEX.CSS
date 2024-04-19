@@ -1,0 +1,120 @@
+.container{
+   
+    margin: 0;
+    background-color: lime;
+    height: 100px;
+    align-items: center;
+}
+#form{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+   
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+#reason{
+    background-color: #dddddd;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid transparent;padding: 1em;
+}
+#reason:hover{
+    cursor: pointer;
+    background-color: #eeeeee;
+}
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+}
+
+/* repayment calculator*/
+.top{
+    background-color: rgb(12, 0, 56);
+    color: white;
+    padding: 32px;
+    height: 120px;
+}
+.top-form{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+.title{
+    margin-bottom: 15px;
+}
+.group input{
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+ 
+}
+
+.bottom{
+  margin-left: 250px;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.value{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+.value::before{
+    content: "$";
+    margin-right: 5px;
+    opacity: 0.4;
+
+}
+.btn-clr{
+    background-color: red;
+    height: 40px;
+    width: 100px;
+    margin-left: 680px;
+    margin-top: 50px;
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 8px;
+}
